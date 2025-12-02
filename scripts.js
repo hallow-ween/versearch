@@ -39,7 +39,5 @@ dark = true;
 document.body.style.backgroundColor = "white";
 document.body.style.color = "black";
 dark = false;
-} else {
 }
-
 };
