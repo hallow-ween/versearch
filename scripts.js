@@ -6,11 +6,11 @@ document.getElementById("verseName");
 const verseText =
 document.getElementById("verseText");
 
-
+function findVerse() {
 const bookval = 
-bookSelector.value;
+bookSelector.value.trim();
 const chapnverseval =
-bibleVerseAndChapter.value;
+bibleVerseAndChapter.value.trim();
 
 let bibleverse = {};
 fetch(`https://bible-api.com/${bookval}+${chapnverseval}`)
@@ -22,6 +22,7 @@ verseText.textContent = data.text;
 })
 
 .catch(err => console.error(err));
+};
 
 
 
