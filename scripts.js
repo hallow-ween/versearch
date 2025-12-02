@@ -28,5 +28,18 @@ verseText.textContent = data.text;
 .catch(err => console.error(err));
 };
 
+let dark = false;
 
+function darkOrLight() {
+if (!dark) {
+document.body.style.backgroundColor = "black";
+document.body.style.color = "white";
+dark = true;
+} else {
+document.body.style.backgroundColor = "white";
+document.body.style.color = "black";
+dark = false;
+} else {
+}
 
+};
