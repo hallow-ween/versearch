@@ -16,10 +16,11 @@ width, initial-scale=1.0">
 <p>World English Bible translation!</p> 
 <div id="selectVerse">
   <h2> How To Use The Tool:</h2>
-  <p>First, select the book of the Bible you are looking up.</p> <br>
+  <p>First, select the book of the Bible you are looking up.</p>
   <p>Then, search up the verse.</p> 
   <p>As an example, if you wanted to search up "John 3:16"</p> 
   <p>you would select "John" as the book, then type "3:16" in the verse and chapter.</p>
+ <p>If you want want to search up an entire chapter, you can just type the chapter (i.e. "John 3")</p>
   
   <label>Bible Books</label>
   <select id="bibleBooks" name="BookSelector">
@@ -95,7 +96,7 @@ width, initial-scale=1.0">
     <option value="revelation">Revelation</option>
   </optgroup>
 </select> <br>
-<label>Bible Verse and Chapter</label> <br>
+<label>Bible Verse and Chapter</label> 
 <input type="text" id="bibleVerseAndChap" name="bibleVerseAndChapter" placeholder="i.e. 3:16"> <br>
 <button onclick="findVerse()" id="findButton">Find Verse</button>
 </div>
