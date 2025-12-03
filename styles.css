@@ -16,11 +16,13 @@ select {
 font-family: baskervville;
 border-style: solid;
 border-color: #F59E0B;
+color: #F59E0B;
 }
 button {
 font-family: baskervville;
 border-style: solid;
 border-color: #F59E0B;
+color: #F59E0B;
 }
 a {
 font-family: baskervville;
@@ -39,7 +41,5 @@ position: relative;
 width: 400px;
 height: 200px;
 overflow: auto;
-border-style: solid; 
-border-color: #F59E0B;
 bottom: 0;
 }
