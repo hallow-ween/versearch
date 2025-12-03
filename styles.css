@@ -29,6 +29,13 @@ font-family: baskervville;
 color: #F59E0B;
 }
 
+input {
+font-family: baskervville;
+border-style: solid;
+border-color: #F59E0B;
+color: #F59E0B;
+}
+
 body {
 display: flex;
 flex-direction: column;
