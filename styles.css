@@ -1,38 +1,38 @@
 @font-face {
-src: url(baskervville.ttf);
-font-family: baskervville;
+src: url(typewriter.ttf);
+font-family: typewriter;
 }
 
 p {
-font-family: baskervville;
+font-family: typewriter;
 }
 h1 {
-font-family: baskervville;
+font-family: typewriter;
 color: #F59E0B;
 }
 h2 {
-font-family: baskervville;
+font-family: typewriter;
 color: #F59E0B;
 }
 select {
-font-family: baskervville;
+font-family: typewriter;
 border-style: solid;
 border-color: #F59E0B;
 color: #F59E0B;
 }
 button {
-font-family: baskervville;
+font-family: typewriter;
 border-style: solid;
 border-color: #F59E0B;
 color: #F59E0B;
 }
 a {
-font-family: baskervville;
+font-family: typewriter;
 color: #F59E0B;
 }
 
 input {
-font-family: baskervville;
+font-family: typewriter;
 border-style: solid;
 border-color: #F59E0B;
 color: #F59E0B;
