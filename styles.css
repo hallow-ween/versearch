@@ -3,15 +3,20 @@ src: url(typewriter.ttf);
 font-family: typewriter;
 }
 
+@font-face {
+src: url(typewriter-bold.ttf);
+font-family: typewriterBold;
+}
+
 p {
 font-family: typewriter;
 }
 h1 {
-font-family: typewriter;
+font-family: typewriterBold;
 color: #F59E0B;
 }
 h2 {
-font-family: typewriter;
+font-family: typewriterBold;
 color: #F59E0B;
 }
 select {
