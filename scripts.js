@@ -51,6 +51,8 @@ bibleVerseAndChapter.style.backgroundColor = "black";
   bibleVerseAndChapter.style.color = "white";
 bookSelector.style.backgroundColor = "black";
   bookSelector.style.color = "white";
+  translations.style.backgroundColor = "black";
+  translations.style.color = "white";
 dark = true;
 } else {
 document.body.style.backgroundColor = "white";
@@ -63,6 +65,8 @@ bibleVerseAndChapter.style.backgroundColor = "white";
     bibleVerseAndChapter.style.color = "black";
 bookSelector.style.backgroundColor = "white";
       bookSelector.style.color = "black";
+    translations.style.backgroundColor = "white";
+  translations.style.color = "black";
 dark = false;
 }
 };
