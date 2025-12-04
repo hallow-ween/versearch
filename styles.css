@@ -8,6 +8,12 @@ src: url(typewriter-bold.ttf);
 font-family: typewriterBold;
 }
 
+.gif {
+width: 100%;
+height: auto;
+max-width: 500px;
+}
+
 p {
 font-family: typewriter;
 }
