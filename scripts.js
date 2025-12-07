@@ -11,6 +11,8 @@ const darklight =
 document.getElementById("darklight");
 const translations = 
 document.getElementById("translations");
+const randomButton =
+document.getElementById("randomButton");
 
 function findVerse() {
 const bookvalue = 
@@ -62,8 +64,8 @@ bibleVerseAndChapter.style.backgroundColor = "black";
   bibleVerseAndChapter.style.color = "white";
 bookSelector.style.backgroundColor = "black";
   bookSelector.style.color = "white";
-  translations.style.backgroundColor = "black";
-  translations.style.color = "white";
+randomButton.style.backgroundColor = "black";
+  randomButton.style.color = "white";
 dark = true;
 } else {
 document.body.style.backgroundColor = "white";
@@ -78,6 +80,8 @@ bookSelector.style.backgroundColor = "white";
       bookSelector.style.color = "black";
     translations.style.backgroundColor = "white";
   translations.style.color = "black";
+  randomButton.style.backgroundColor = "white";
+  randomButton.style.color = "black";
 dark = false;
 }
 };
