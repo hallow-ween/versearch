@@ -66,6 +66,8 @@ bookSelector.style.backgroundColor = "black";
   bookSelector.style.color = "white";
 randomButton.style.backgroundColor = "black";
   randomButton.style.color = "white";
+  translations.style.backgroundColor = "black";
+  translations.style.color = "white";
 dark = true;
 } else {
 document.body.style.backgroundColor = "white";
